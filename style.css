@@ -1,12 +1,65 @@
-body{
+.main{
+    padding: 10px;
     background-color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+    justify-content: center;
+    align-items: center;
+}
+
+.main canvas{
+    padding: 5px;
+}
+h3{
+    padding: 5px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 40vh;
+    margin-top: 15vh;
+
+
+}
+
+.Modal{
+    display: none;
+    height: 100%;
+    width: 100%;
+    
 
 }
 h1{
-    margin-left: 75vh;
+    font-size: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Modal_overlay{
 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255); /* semi-transparent background */
+    display: block;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+p{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.Modal.open{
+    display:flex;
+    
 }
